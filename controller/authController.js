@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const config = require('../config');
 const User = require('../model/userSchema');
-let port = process.env.PORT || 9900;
+const port = process.env.PORT || 3300;
 
 router.use(bodyParser.urlencoded({extended:true}));
 router.use(bodyParser.json())
